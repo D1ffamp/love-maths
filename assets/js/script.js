@@ -143,12 +143,12 @@ function displayMultiplyQuestion(operand1, operand2) {
 }
 
 function displayDivisionQuestion(operand1, operand2){
-    if(operand1>operand2&&operand1&operand2===0){
+    if(operand1>operand2&&operand1%operand2===0){
         document.getElementById('operand1').textContent = operand1;
     }else {
         document.getElementById('operand1').textContent = operand2;
     }
-    if(operand1>operand2&&operand1&operand2===0){
+    if(operand1>operand2&&operand1%operand2===0){
         document.getElementById('operand2').textContent = operand2;
     }else {
         document.getElementById('operand1').textContent = operand1;
